@@ -17,7 +17,6 @@ margin-top: 56px;
 @media screen and (max-width: 1023px) {
     .lead {
         max-width: 768px;
-        width: 100%;
         margin-top: 0;
         min-height: 862px;
     }

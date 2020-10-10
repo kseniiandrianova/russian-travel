@@ -2,8 +2,9 @@
     max-width: 176px;
     max-height: 52px;
     width: 100%;
-    position: absolute;
+    display: flex;
     margin: 0 auto;
+    margin-left: 0;
 }
 
 @media screen and (max-width: 1279px) {

@@ -1,6 +1,5 @@
 .header__lang-link {
    max-width: 30px;
-   max-height: 28px;
    margin: 0 auto;
    margin-right: 0;
    margin-top: 18px;
@@ -12,20 +11,15 @@
    line-height: 28px;
    text-align: right;
    text-decoration: none;
+   opacity: 1;
+   transition: all 0.5s ease;
 }
-@media screen and (max-width: 1279px) {
-   .header__lang-link {
-      max-width: 928px;
-      font-size: 24px;
-     
-   } 
+
+.header__lang-link:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease;
   }
-  @media screen and (max-width: 1023px) {
-   .header__lang-link {
-      max-width: 720px;
-      font-size: 24px;
-   } 
-  }
+
   @media screen and (max-width: 767px) {
    .header__lang-link {
       max-width: 288px;
