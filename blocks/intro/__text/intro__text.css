@@ -1,7 +1,5 @@
 .intro__text {
     max-width: 690px;
-    display: flex;
-    position: relative;
     margin: 0 auto;
     margin-left: 0;
     justify-content: start;
@@ -16,22 +14,18 @@
     .intro__text {
         width: 100%;
         margin-bottom: 32px;
-        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .intro__text {
         max-width: 720px;
-        margin-bottom: 32px;
-        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro__text {
         max-width: 288px;
-        font-size: 16px;
         margin-bottom: 45px;
     }
 }
